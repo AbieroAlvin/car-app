@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import Cars from "./components/Cars";
 import About from "./components/About";
 import Why from "./components/Why";
-import Testimonial from "./components/Testimonial";
+import Testimonials from "./components/Testimonials";
 import Cta from "./components/Cta";
 import Footer from "./components/Footer";
 import BTTopBtn from "./components/BTTopBtn";
@@ -16,10 +16,11 @@ function App() {
       <Cars />
       <About />
       <Why />
-      <Testimonial />
+      <Testimonials />
       <Cta />
       <Footer />
       <BTTopBtn />
+      <div className="h-[4000px]"></div>
     </main>
   );
 }
