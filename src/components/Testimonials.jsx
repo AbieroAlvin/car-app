@@ -1,7 +1,11 @@
+import TestimonialSlider from "./TestimonialSlider";
+
 const Testimonials = () => {
   return (
-    <section className="section flex items-center bg-cyan-200" id="testimonial">
-      Testimonials
+    <section className="section flex items-center" id="testimonial">
+      <div className="container mx-auto">
+        <TestimonialSlider />
+      </div>
     </section>
   );
 };

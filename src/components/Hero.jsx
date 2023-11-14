@@ -15,7 +15,7 @@ const Hero = () => {
   const { searchActive } = useSearchContext();
   return (
     <section className="section h-screen xl:h-[90vh] bg-[#b2b7c2]/10" id="home">
-      <div className="container mx-auto h-full">
+      <div className="mx-auto h-full">
         {/* text & img wrapper */}
         <div className="flex flex-col xl:flex-row justify-center items-center xl:justify-start h-full">
           {/* text */}
@@ -77,7 +77,7 @@ const Hero = () => {
             <img
               src={Car}
               alt="car"
-              className="object-contain xl:max-w-[700px] xl:max-h-[700px] px-10"
+              className="object-cover xl:max-w-[700px] xl:max-h-[700px] px-10"
             />
           </motion.div>
         </div>
