@@ -14,7 +14,10 @@ import { fadeIn } from "/variants";
 const Hero = () => {
   const { searchActive } = useSearchContext();
   return (
-    <section className="section h-screen xl:h-[90vh] bg-[#b2b7c2]/10" id="home">
+    <section
+      className="section h-screen xl:h-[90vh] bg-[#b2b7c2]/10 xl:px-[40px] "
+      id="home"
+    >
       <div className="mx-auto h-full">
         {/* text & img wrapper */}
         <div className="flex flex-col xl:flex-row justify-center items-center xl:justify-start h-full">
